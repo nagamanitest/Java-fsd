@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">ecom Webapp Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ecom_Webapp_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\sham2\eclipse-workspace\Phase2-selenium-testng\TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ecom_Webapp_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ecom_Webapp_Test_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ecom_Webapp_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ecom_Webapp_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ecom_Webapp_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ecom_Webapp_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 1 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" class="hide-methods failed suite-ecom_Webapp_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-ecom_Webapp_Test_Suite -->
+                      <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" class="show-methods failed suite-ecom_Webapp_Test_Suite"> (show)</a> <!-- show-methods failed suite-ecom_Webapp_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-ecom_Webapp_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.LinkVerificationCssSelector" class="method navigator-link" hash-for-method="xpathLinkTest1">xpathLinkTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ecom_Webapp_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" class="hide-methods passed suite-ecom_Webapp_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-ecom_Webapp_Test_Suite -->
+                      <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" class="show-methods passed suite-ecom_Webapp_Test_Suite"> (show)</a> <!-- show-methods passed suite-ecom_Webapp_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-ecom_Webapp_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.AssertionTest" class="method navigator-link" hash-for-method="assetTest">assetTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.AssertionTest" class="method navigator-link" hash-for-method="hardAssert">hardAssert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.LinkVerificationTest" class="method navigator-link" hash-for-method="linkTest1">linkTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.LinkVerificationTest" class="method navigator-link" hash-for-method="linkTest2">linkTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.AttributeGroup" class="method navigator-link" hash-for-method="r1">r1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.AttributeGroup" class="method navigator-link" hash-for-method="r2">r2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.AttributeGroup" class="method navigator-link" hash-for-method="r3">r3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.AssertionTest" class="method navigator-link" hash-for-method="softAssert">softAssert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.AmazonHomePage" class="method navigator-link" hash-for-method="testAmazonHomePageSourceUrl">testAmazonHomePageSourceUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.AmazonHomePage" class="method navigator-link" hash-for-method="testAmazonHomePageTitle">testAmazonHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.AmazonHomePage" class="method navigator-link" hash-for-method="testAmazonHomePageTitle2">testAmazonHomePageTitle2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.TestNGAnnotationTest" class="method navigator-link" hash-for-method="testOne">testOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.AttributeGroup" class="method navigator-link" hash-for-method="testOne">testOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearch1">testSearch1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearch2">testSearch2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearch3">testSearch3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.TestNGAnnotationTest" class="method navigator-link" hash-for-method="testTwo">testTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.AttributeGroup" class="method navigator-link" hash-for-method="testTwo">testTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.TestNGAnnotationTest" class="method navigator-link" hash-for-method="testthree">testthree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.LinkVerificationXpath" class="method navigator-link" hash-for-method="xpathLinkTest1">xpathLinkTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.LinkVerificationXpath" class="method navigator-link" hash-for-method="xpathLinkTest2">xpathLinkTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ecom_Webapp_Test_Suite" title="com.simplilearn.testng.amazon.LinkVerificationCssSelector" class="method navigator-link" hash-for-method="xpathLinkTest2">xpathLinkTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ecom_Webapp_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ecom_Webapp_Test_Suite" class="panel ecom_Webapp_Test_Suite">
+          <div class="suite-ecom_Webapp_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.simplilearn.testng.amazon.LinkVerificationCssSelector</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xpathLinkTest1">
+                  </a> <!-- xpathLinkTest1 -->
+                  <span class="method-name">xpathLinkTest1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#nav-xshop &gt; a:nth-child(7)&quot;}
+  (Session info: chrome=120.0.6099.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a79d4f42bc4037fd15154ef78297731e, findElement {using=css selector, value=#nav-xshop &gt; a:nth-child(7)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.110, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\sham2\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63648}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63648/devtoo..., se:cdpVersion: 120.0.6099.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a79d4f42bc4037fd15154ef78297731e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.simplilearn.testng.amazon.LinkVerificationCssSelector.xpathLinkTest1(LinkVerificationCssSelector.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Amazon Mobile Phones Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ecom_Webapp_Test_Suite-class-failed -->
+          <div class="suite-ecom_Webapp_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.testng.AssertionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assetTest">
+                  </a> <!-- assetTest -->
+                  <span class="method-name">assetTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hardAssert">
+                  </a> <!-- hardAssert -->
+                  <span class="method-name">hardAssert</span>
+                  <em>
+(Hard Assertion Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="softAssert">
+                  </a> <!-- softAssert -->
+                  <span class="method-name">softAssert</span>
+                  <em>
+(Soft Assertion Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ecom_Webapp_Test_Suite-class-passed -->
+          <div class="suite-ecom_Webapp_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.testng.amazon.AmazonHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAmazonHomePageSourceUrl">
+                  </a> <!-- testAmazonHomePageSourceUrl -->
+                  <span class="method-name">testAmazonHomePageSourceUrl</span>
+                  <em>
+(Test Amazon Home Page Source Url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAmazonHomePageTitle">
+                  </a> <!-- testAmazonHomePageTitle -->
+                  <span class="method-name">testAmazonHomePageTitle</span>
+                  <em>
+(Test Amazon Home Page Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAmazonHomePageTitle2">
+                  </a> <!-- testAmazonHomePageTitle2 -->
+                  <span class="method-name">testAmazonHomePageTitle2</span>
+                  <em>
+(Test Amazon Home Page Title Invalid Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ecom_Webapp_Test_Suite-class-passed -->
+          <div class="suite-ecom_Webapp_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.testng.amazon.LinkVerificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkTest1">
+                  </a> <!-- linkTest1 -->
+                  <span class="method-name">linkTest1</span>
+                  <em>
+(Test Amazon Mobile Phones Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkTest2">
+                  </a> <!-- linkTest2 -->
+                  <span class="method-name">linkTest2</span>
+                  <em>
+(Verify the Todays deals link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ecom_Webapp_Test_Suite-class-passed -->
+          <div class="suite-ecom_Webapp_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.testng.AttributeGroup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="r1">
+                  </a> <!-- r1 -->
+                  <span class="method-name">r1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="r2">
+                  </a> <!-- r2 -->
+                  <span class="method-name">r2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="r3">
+                  </a> <!-- r3 -->
+                  <span class="method-name">r3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne">
+                  </a> <!-- testOne -->
+                  <span class="method-name">testOne</span>
+                  <em>
+(Sample Test one)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwo">
+                  </a> <!-- testTwo -->
+                  <span class="method-name">testTwo</span>
+                  <em>
+(Sample test two)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ecom_Webapp_Test_Suite-class-passed -->
+          <div class="suite-ecom_Webapp_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.testng.TestNGAnnotationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne">
+                  </a> <!-- testOne -->
+                  <span class="method-name">testOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwo">
+                  </a> <!-- testTwo -->
+                  <span class="method-name">testTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testthree">
+                  </a> <!-- testthree -->
+                  <span class="method-name">testthree</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ecom_Webapp_Test_Suite-class-passed -->
+          <div class="suite-ecom_Webapp_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.testng.amazon.AmazonSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch1">
+                  </a> <!-- testSearch1 -->
+                  <span class="method-name">testSearch1</span>
+                  <em>
+(Search Iphone 15 pro max)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch2">
+                  </a> <!-- testSearch2 -->
+                  <span class="method-name">testSearch2</span>
+                  <em>
+(Apple Mac book)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch3">
+                  </a> <!-- testSearch3 -->
+                  <span class="method-name">testSearch3</span>
+                  <em>
+(Search for TCS Tv)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ecom_Webapp_Test_Suite-class-passed -->
+          <div class="suite-ecom_Webapp_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.testng.amazon.LinkVerificationXpath</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xpathLinkTest1">
+                  </a> <!-- xpathLinkTest1 -->
+                  <span class="method-name">xpathLinkTest1</span>
+                  <em>
+(Test Amazon Mobile Phones Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xpathLinkTest2">
+                  </a> <!-- xpathLinkTest2 -->
+                  <span class="method-name">xpathLinkTest2</span>
+                  <em>
+(Test Today deals Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ecom_Webapp_Test_Suite-class-passed -->
+          <div class="suite-ecom_Webapp_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.testng.amazon.LinkVerificationCssSelector</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xpathLinkTest2">
+                  </a> <!-- xpathLinkTest2 -->
+                  <span class="method-name">xpathLinkTest2</span>
+                  <em>
+(Test Today deals Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ecom_Webapp_Test_Suite-class-passed -->
+        </div> <!-- panel ecom_Webapp_Test_Suite -->
+        <div panel-name="test-xml-ecom_Webapp_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sham2\eclipse-workspace\Phase2-selenium-testng\TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ecom Webapp Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplilearn.testng.amazon.AmazonHomePage&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.testng.amazon.AmazonSearchTest&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.testng.amazon.LinkVerificationTest&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.testng.amazon.LinkVerificationXpath&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.testng.amazon.LinkVerificationCssSelector&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Group Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplilearn.testng.AttributeGroup&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.testng.AssertionTest&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.testng.TestNGAnnotationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Group Test --&gt;
+&lt;/suite&gt; &lt;!-- ecom Webapp Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ecom_Webapp_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ecom Webapp Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon Test (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Group Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ecom_Webapp_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ecom Webapp Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">r1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">r2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">r3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ecom_Webapp_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ecom Webapp Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ecom_Webapp_Test_Suite');
+function tableData_ecom_Webapp_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSearch3')
+data.setCell(0, 2, 'com.simplilearn.testng.amazon.AmazonSearchTest')
+data.setCell(0, 3, 4426);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearch1')
+data.setCell(1, 2, 'com.simplilearn.testng.amazon.AmazonSearchTest')
+data.setCell(1, 3, 4309);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSearch2')
+data.setCell(2, 2, 'com.simplilearn.testng.amazon.AmazonSearchTest')
+data.setCell(2, 3, 4157);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'xpathLinkTest1')
+data.setCell(3, 2, 'com.simplilearn.testng.amazon.LinkVerificationXpath')
+data.setCell(3, 3, 3606);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'linkTest1')
+data.setCell(4, 2, 'com.simplilearn.testng.amazon.LinkVerificationTest')
+data.setCell(4, 3, 3082);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'linkTest2')
+data.setCell(5, 2, 'com.simplilearn.testng.amazon.LinkVerificationTest')
+data.setCell(5, 3, 2653);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'xpathLinkTest2')
+data.setCell(6, 2, 'com.simplilearn.testng.amazon.LinkVerificationXpath')
+data.setCell(6, 3, 2138);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'xpathLinkTest2')
+data.setCell(7, 2, 'com.simplilearn.testng.amazon.LinkVerificationCssSelector')
+data.setCell(7, 3, 1735);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'r2')
+data.setCell(8, 2, 'com.simplilearn.testng.AttributeGroup')
+data.setCell(8, 3, 109);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'xpathLinkTest1')
+data.setCell(9, 2, 'com.simplilearn.testng.amazon.LinkVerificationCssSelector')
+data.setCell(9, 3, 40);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAmazonHomePageSourceUrl')
+data.setCell(10, 2, 'com.simplilearn.testng.amazon.AmazonHomePage')
+data.setCell(10, 3, 21);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'softAssert')
+data.setCell(11, 2, 'com.simplilearn.testng.AssertionTest')
+data.setCell(11, 3, 21);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testAmazonHomePageTitle')
+data.setCell(12, 2, 'com.simplilearn.testng.amazon.AmazonHomePage')
+data.setCell(12, 3, 11);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testAmazonHomePageTitle2')
+data.setCell(13, 2, 'com.simplilearn.testng.amazon.AmazonHomePage')
+data.setCell(13, 3, 9);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testTwo')
+data.setCell(14, 2, 'com.simplilearn.testng.TestNGAnnotationTest')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'hardAssert')
+data.setCell(15, 2, 'com.simplilearn.testng.AssertionTest')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testOne')
+data.setCell(16, 2, 'com.simplilearn.testng.TestNGAnnotationTest')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'assetTest')
+data.setCell(17, 2, 'com.simplilearn.testng.AssertionTest')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testTwo')
+data.setCell(18, 2, 'com.simplilearn.testng.AttributeGroup')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'r3')
+data.setCell(19, 2, 'com.simplilearn.testng.AttributeGroup')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'r1')
+data.setCell(20, 2, 'com.simplilearn.testng.AttributeGroup')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testthree')
+data.setCell(21, 2, 'com.simplilearn.testng.TestNGAnnotationTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testOne')
+data.setCell(22, 2, 'com.simplilearn.testng.AttributeGroup')
+data.setCell(22, 3, 1);
+window.suiteTableData['ecom_Webapp_Test_Suite']= { tableData: data, tableDiv: 'times-div-ecom_Webapp_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-ecom_Webapp_Test_Suite">
+              </div> <!-- times-div-ecom_Webapp_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ecom_Webapp_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ecom Webapp Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ecom_Webapp_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplilearn.testng.AttributeGroup</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testThree</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ecom_Webapp_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.TestNGAnnotationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpBeforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.amazon.AmazonHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAmazonHomePageSourceUrl</span>
+                <span class="method-start">10293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">10319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAmazonHomePageTitle</span>
+                <span class="method-start">21887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">21900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAmazonHomePageTitle2</span>
+                <span class="method-start">33553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">33566 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.amazon.AmazonSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">36820 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearch1</span>
+                <span class="method-start">39817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch2</span>
+                <span class="method-start">44128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch3</span>
+                <span class="method-start">48287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">52714 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.amazon.LinkVerificationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">linkTest1</span>
+                <span class="method-start">60623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">63706 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">linkTest2</span>
+                <span class="method-start">73607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">76261 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.amazon.LinkVerificationXpath</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">xpathLinkTest1</span>
+                <span class="method-start">86111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">89719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">92632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">xpathLinkTest2</span>
+                <span class="method-start">99714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">101854 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.amazon.LinkVerificationCssSelector</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">104353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">xpathLinkTest1</span>
+                <span class="method-start">106635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">106682 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">106885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">xpathLinkTest2</span>
+                <span class="method-start">109737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">111474 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.AssertionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assetTest</span>
+                <span class="method-start">111851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hardAssert</span>
+                <span class="method-start">111854 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.AttributeGroup</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">r1</span>
+                <span class="method-start">111859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">r2</span>
+                <span class="method-start">111866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">r3</span>
+                <span class="method-start">111977 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.AssertionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">softAssert</span>
+                <span class="method-start">111980 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.TestNGAnnotationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOne</span>
+                <span class="method-start">112003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeMethod</span>
+                <span class="method-start">112003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanAfterMethod</span>
+                <span class="method-start">112006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testTwo</span>
+                <span class="method-start">112007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeMethod</span>
+                <span class="method-start">112007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanAfterMethod</span>
+                <span class="method-start">112009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeMethod</span>
+                <span class="method-start">112010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testthree</span>
+                <span class="method-start">112011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanAfterMethod</span>
+                <span class="method-start">112013 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.AttributeGroup</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOne</span>
+                <span class="method-start">112014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTwo</span>
+                <span class="method-start">112016 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.testng.TestNGAnnotationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">cleanAfterSuite</span>
+                <span class="method-start">112027 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

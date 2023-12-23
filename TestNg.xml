@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "ecom Webapp Test Suite">
+	<test name="Amazon Test">
+		<classes>
+			<class name = "com.simplilearn.testng.amazon.AmazonHomePage"></class>
+			<class name = "com.simplilearn.testng.amazon.AmazonSearchTest"></class>
+			<class name = "com.simplilearn.testng.amazon.LinkVerificationTest"></class>
+			<class name = "com.simplilearn.testng.amazon.LinkVerificationXpath"></class>
+			<class name = "com.simplilearn.testng.amazon.LinkVerificationCssSelector"></class>
+			
+		</classes>
+	</test>
+	<test name = "Group Test">
+		<classes>
+			<class name = "com.simplilearn.testng.AttributeGroup"></class>
+			<class name = "com.simplilearn.testng.AssertionTest"></class>
+			<class name = "com.simplilearn.testng.TestNGAnnotationTest"></class>
+		</classes>
+	</test>
+	
+</suite>
