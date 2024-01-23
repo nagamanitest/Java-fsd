@@ -1,0 +1,35 @@
+2024-01-20 16:50:21 INFO  DeleteRequestTest:31 Start :: Delete user by {userId} test.
+2024-01-20 16:50:21 INFO  DeleteRequestTest:33 DELTE : URL https://reqres.in/api/users/=2
+2024-01-20 16:50:23 INFO  DeleteRequestTest:40 End :: Delete user test.
+2024-01-20 16:50:23 INFO  DeleteRequestTest:31 Start :: Delete user by {userId} test.
+2024-01-20 16:50:23 INFO  DeleteRequestTest:33 DELTE : URL https://reqres.in/api/users/=7
+2024-01-20 16:50:24 INFO  DeleteRequestTest:40 End :: Delete user test.
+2024-01-20 16:50:24 INFO  DeleteRequestTest:31 Start :: Delete user by {userId} test.
+2024-01-20 16:50:24 INFO  DeleteRequestTest:33 DELTE : URL https://reqres.in/api/users/=11
+2024-01-20 16:50:25 INFO  DeleteRequestTest:40 End :: Delete user test.
+2024-01-20 16:51:22 INFO  GetRequestTest:15 Start :: GET All users test.
+2024-01-20 16:51:22 INFO  GetRequestTest:19 GET : URL https://reqres.in/api/users?page=2
+2024-01-20 16:51:24 INFO  GetRequestTest:34 Reponse :: {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-01-20 16:51:24 INFO  GetRequestTest:35 End :: GET All users test.
+2024-01-20 16:51:24 INFO  GetRequestTest:40 Start :: GET All users test with query parms.
+2024-01-20 16:51:24 INFO  GetRequestTest:48 GET : URL https://reqres.in/api/users?page=2
+2024-01-20 16:51:24 INFO  GetRequestTest:62 Reponse :: {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-01-20 16:51:24 INFO  GetRequestTest:63 End :: GET All users test with query parms.
+2024-01-20 16:51:24 INFO  GetRequestTest:68 Start :: GET user by {userId} test.
+2024-01-20 16:51:25 INFO  GetRequestTest:76 GET : URL https://reqres.in/api/users/7
+2024-01-20 16:51:25 INFO  GetRequestTest:86 Reponse :: {"data":{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-01-20 16:51:25 INFO  GetRequestTest:87 End :: GET user by {userId} test.
+2024-01-20 16:51:54 INFO  PatchRequestTest:16 Start :: PATCH request test using rest assured.
+2024-01-20 16:51:56 INFO  PatchRequestTest:36 Response :: {"name":"Mike SMith","job":"QA/Tester","id":"328","createdAt":"2024-01-20T11:21:57.154Z"}
+2024-01-20 16:51:56 INFO  PatchRequestTest:37 End :: PATCH request test using rest assured.
+2024-01-20 16:52:34 INFO  PostRequestTest:16 Start :: POST request test using rest assured.
+2024-01-20 16:52:34 INFO  PostRequestTest:22 Request Object:: PostData [name=Mike SMith, job=Dermotologist]
+2024-01-20 16:52:36 INFO  PostRequestTest:35 Response Object:: {"name":"Mike SMith","job":"Dermotologist","id":"911","createdAt":"2024-01-20T11:22:37.057Z"}
+2024-01-20 16:52:36 INFO  PostRequestTest:36 End :: POST request test using rest assured.
+2024-01-20 16:53:27 INFO  PutRequestTest:18 Start :: PUT request test using rest assured.
+2024-01-20 16:53:27 INFO  PutRequestTest:26 Request Object:: PostData [name=Mike SMith, job=QA/Tester]
+2024-01-20 16:53:30 INFO  PutRequestTest:39 Response :: {"name":"Mike SMith","job":"QA/Tester","id":"154","createdAt":"2024-01-20T11:23:30.950Z"}
+2024-01-20 16:53:30 INFO  PutRequestTest:40 End :: PUT request test using rest assured.
+2024-01-20 16:54:44 ERROR TestLogs:29 This is error logs.
+2024-01-20 16:54:44 INFO  TestLogs:14 This is info logs.
+2024-01-20 16:54:44 WARN  TestLogs:19 This is warn logs.
